@@ -33,12 +33,12 @@ Since this is a multi-classification problem, the cross-entropy loss function wa
 ![Screenshot 2024-07-15 at 17 33 30](https://github.com/user-attachments/assets/dc3714b4-b4e0-4692-9081-2d12ba2f7d83)
 
 Both models performed very well, achieving over 98% test accuracy and demonstrating very low loss. 
-However, given that Effnet B1 has a size of 26MB compared to Effnet V2 S’s 81MB, Effnet B1 was deemed more appropriate for this project.
+However, given that Effnet B1 has a size of 26MB compared to Effnet V2 S’s 81MB and the training time of Effnet V2 S taking double of B1, Effnet B1 was deemed more appropriate for this project.
 
-The prediction probabilities were not the highest for medium vs. dark roasted beans, as both are often easily mistaken for one another. 
-While the overall prediction labels were accurate, the model lacked confidence when differentiating between these two types. This difficulty was understandable upon examining the photos.
+Additionally, prediction probabilities were not the highest for medium vs. dark roasted beans, as both can be often easily mistaken for one another. 
+The overall prediction labels were accurate; however, the model lacked confidence when differentiating between these two types. This difficulty was understandable upon examining the photos.
 
-#### One is dark and one is medium here, but it is difficult even for the human eye to distinguish between the two due to shadows and image quality.
+#### One is dark and one is medium here, but it is difficult even for the human eye to distinguish between the two due to the location of shadows and image quality.
 ![medium (20)](https://github.com/user-attachments/assets/e124eb0f-b7ea-43d8-8c8d-a0b88606cc4f)
 ![dark (64)](https://github.com/user-attachments/assets/5c998f89-ccef-4975-8d7d-eeedbecf431a)
 
