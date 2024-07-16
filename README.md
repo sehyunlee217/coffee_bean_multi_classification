@@ -1,33 +1,8 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# coffee_bean_multi_classification
-Classifying coffee beans (Green/Unroasted Light, Medium, Dark) using Computer Vision Models (Effnet) 
-
-Dataset from [Coffee Bean Data](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224) | Ontoum, S., Khemanantakul, T., Sroison, P., Triyason, T., & Watanapa, B. (2022). Coffee Roast Intelligence. arXiv preprint arXiv:2206.01841.
-. 
-
-![Accuracy(1).svg](..%2F..%2FDownloads%2FAccuracy%281%29.svg)
-
-
-
-
-
-![Loss(1).svg](..%2F..%2FDownloads%2FLoss%281%29.svg)
-=======
 ## Classifying coffee beans based on level of roasting using CNN Models (Effnet)  
 ### [Live Preview on Hugging Face](https://huggingface.co/spaces/sehyunlee217/Coffee_Bean_Classifier)
 ![Screenshot 2024-07-15 at 17 20 24](https://github.com/user-attachments/assets/8736f89c-9168-476e-8bd6-a0d2961f6e5f)
 ___
 Drinking coffee in the morning is one of the most important things that many do to start the day. 
-
-=======
-## Classifying coffee beans based on level of roasting using CNN Models (Effnet)  
-### [Live Preview on Hugging Face](https://huggingface.co/spaces/sehyunlee217/Coffee_Bean_Classifier)
-![Screenshot 2024-07-15 at 17 20 24](https://github.com/user-attachments/assets/8736f89c-9168-476e-8bd6-a0d2961f6e5f)
-___
-Drinking coffee in the morning is one of the most important things that many do to start the day. 
-
->>>>>>> 692f0e0142c2d2916331e377f99868afba4ca692
 While several elements contribute to a good cup of coffee, understanding the types of beans and their roasting levels is key to mastering your morning coffee.
 
 For this dataset, four roasting levels with its bean type are addressed: Green/Unroasted and lightly roasted coffee beans are Laos Typica Bolaven. Doi Chaang are the medium roasted, and Brazil Cerrado are dark roasted. All coffee beans are Arabica beans.
@@ -70,8 +45,6 @@ In conclusion, while both CNN models demonstrated high accuracy and low loss, Ef
 Despite the overall high prediction accuracy, distinguishing between medium and dark roasted beans proved to be challenging, due to shadows in the images. 
 Future improvements could focus on enhancing the model’s ability to differentiate between these closely related classes and also adding different types of beans and its shapes as well. 
 
+___
+
 Dataset from [Coffee Bean Data](https://www.kaggle.com/datasets/gpiosenka/coffee-bean-dataset-resized-224-x-224) | Ontoum, S., Khemanantakul, T., Sroison, P., Triyason, T., & Watanapa, B. (2022). Coffee Roast Intelligence. arXiv preprint arXiv:2206.01841.
-<<<<<<< HEAD
->>>>>>> 692f0e0142c2d2916331e377f99868afba4ca692
-=======
->>>>>>> 692f0e0142c2d2916331e377f99868afba4ca692
